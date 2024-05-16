@@ -41,14 +41,7 @@
             </div>
 
             <div class="mb-3">
-                <label for="sale" class="form-label">sale date</label>
-                <input type="text" class="form-control" name="sale" id="sale" aria-describedby="saleHelper"
-                    placeholder="comic sale" />
-                <small id="saleHelper" class="form-text text-muted">Type sale of new Comic</small>
-            </div>
-
-            <div class="mb-3">
-                <label for="type" class="form-label">type date</label>
+                <label for="type" class="form-label">type</label>
                 <input type="text" class="form-control" name="type" id="type" aria-describedby="typeHelper"
                     placeholder="comic type" />
                 <small id="typeHelper" class="form-text text-muted">Type the type of new Comic</small>
