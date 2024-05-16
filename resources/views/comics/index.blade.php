@@ -21,20 +21,18 @@
                         <tr class="">
                             <td scope="row">{{ $comic->id }}</td>
                             <td>{{ $comic->title }}</td>
-                            <td><img src="{{ $comic->thumb }}" alt="" style="width: 100px"></td>
+                            <td><img src="{{ $comic->thumb }}" alt="" width=100px></td>
                             <td>{{ $comic->description }}</td>
                             <td>{{ $comic->price }}</td>
                             <td>{{ $comic->series }}</td>
                             <td>{{ $comic->sale_date }}</td>
                             <td>{{ $comic->type }}</td>
-
-
+                            <td>
+                                <a href="{{route('comics.show', $comic)}}">view</a>
+                            </td>
                         </tr>
                     @empty
-
                         <td scope="row" colspan="8">nothing to show</td>
-
-                        </tr>
                     @endforelse
 
 
