@@ -15,8 +15,7 @@
 
             <div class="mb-3">
                 <label for="description" class="form-label">description</label>
-                <input type="text" class="form-control" name="description" id="description" aria-describedby="descriptionHelper"
-                    placeholder="comic description" />
+                <textarea for="description" class="form-control" name="description" id="description" rows="7"></textarea>
                 <small id="descriptionHelper" class="form-text text-muted">Type storyline of new Comic</small>
             </div>
 
