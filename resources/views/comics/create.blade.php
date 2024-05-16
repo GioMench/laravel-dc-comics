@@ -54,6 +54,11 @@
                 <small id="typeHelper" class="form-text text-muted">Type the type of new Comic</small>
             </div>
 
+            <button type="submit" class="btn btn-primary">
+                Create
+            </button>
+
+
         </form>
     </div>
 @endsection
