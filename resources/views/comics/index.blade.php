@@ -45,7 +45,7 @@
                 </tbody>
             </table>
         </div>
-        {{$comics->links()}}
+        {{$comics->links('pagination::bootstrap-5')}}
 
     </div>
 @endsection
