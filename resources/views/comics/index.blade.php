@@ -2,6 +2,10 @@
 
 @section('content')
     <div class="container">
+        <div class="d-flex justify-content-between align-items-center py-4">
+            <h3>Comics</h3>
+            <a class="btn btn-dark" href="{{route('comics.create')}}">ADD</a>
+        </div>
         <div class="table-responsive">
             <table class="table table-primary">
                 <thead>
@@ -14,6 +18,8 @@
                         <th scope="col">SERIES</th>
                         <th scope="col">SALE DATE</th>
                         <th scope="col">TYPE</th>
+                        <th scope="col">action</th>
+
                     </tr>
                 </thead>
                 <tbody>
